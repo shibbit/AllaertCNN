@@ -5,7 +5,8 @@ A Pytorch implementation for Allaert CNN(2D only) in https://arxiv.org/pdf/1904.
 
 # Note
 The AllaertCNN is designed for facial expression optical flows classification task. And this project was composed for CASME dataset, you can apply them here:http://casme.psych.ac.cn/casme/. Or you can train the network on your own dataset.
-___Due to the 
+
+I've changed the scale of the FC and output layer for better fitting the CASME dataset.
 
 # Demo
 The pretrained pt file on CASME II is provided. With the accuracy of predictions on original testset(5166 images): 79.07%.
