@@ -50,9 +50,9 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 torch.cuda.manual_seed(seeds)
 
-# net = allCNN.allCNN()
+net = allCNN.allCNN()
 # net = vgg.VGG('VGG19')
-net = vgg.VGG('VGG11')
+# net = vgg.VGG('VGG11')
 if use_cuda:
 	net.cuda()
 
