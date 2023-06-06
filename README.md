@@ -1,5 +1,6 @@
 # AllaertCNN
 A Pytorch implementation for Allaert CNN(2D only) in https://arxiv.org/pdf/1904.11592.pdf, for facial expression classification.
+
 <img width="709" alt="image" src="https://github.com/shibbit/AllaertCNN/assets/98523803/c1caebb1-9683-477b-96d4-2e100b2497f9">
 
 # Note
